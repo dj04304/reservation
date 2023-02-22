@@ -1,0 +1,19 @@
+server:
+  port: 8000
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      force-request: true 
+      force-response: true
+  tomcat:
+    uri-encoding: UTF-8
+    
+spring:
+  mvc:
+    static-path-pattern: /static/**
+
+#mybatis:
+#  mapper-locations:
+#  - /mappers/*.xml
